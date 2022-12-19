@@ -70,15 +70,14 @@ hr {
 }
 
 .navbar-inverse .navbar-brand {
-  color: blue;
+  color: #999;
   font-weight: bolder;
-  font-size: 22px;
+  font-weight: 22px;
   letter-spacing: 1px;
 }
 
 #headerwrap {
   background-image: url(/6.jpg);
-  background-repeat: no-repeat;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -93,9 +92,10 @@ hr {
 }
 
 #headerwrap h1 {
+  display: none;
   margin-top: 100px;
   color: white;
-  font-size: 40px;
+  font-size: 70px;
   font-weight: 300;
   letter-spacing: 3px;
 }

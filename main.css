@@ -77,16 +77,15 @@ hr {
 }
 
 #headerwrap {
-  background-image: url(/6.jpg);
+  background-image: url(/social-media-opportunities-601bc9d146e00-1520x800.png);
+  background-position: center;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
   background-attachment: relative;
-  background-position: center center;
   min-height: 500px;
   width: 100%;
-  background-size: 100%;
-
+  background-size: cover;
   -webkit-backdrop-size: center;
   -moz-background-size: center;
 }
@@ -95,7 +94,7 @@ hr {
   display: none;
   margin-top: 100px;
   color: white;
-  font-size: 70px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -170,7 +169,7 @@ hr {
 
 #r h4 {
   color: white;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 #r p {

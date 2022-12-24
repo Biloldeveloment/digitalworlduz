@@ -312,7 +312,22 @@ hr {
     linear-gradient(0deg, #45c436, #45c436);
   color: white;
   font-size: 15px;
-  margin-left: -165px;
+}
+
+.nt {
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: 100;
+  border-radius: 126px;
+  background: linear-gradient(
+      288.46deg,
+      rgba(0, 0, 0, 0.2) -12.86%,
+      rgba(0, 0, 0, 0) 66.5%
+    ),
+    linear-gradient(0deg, #45c436, #45c436);
+  color: white;
+  font-size: 15px;
+  transform: translate(90px, 0px);
 }
 
 .rowgin {
@@ -365,7 +380,27 @@ hr {
   background: #ffff;
   border: solid 1px grey;
   border-radius: 9px;
-  background: #3caa2f;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)),
+    linear-gradient(0deg, #45c436, #45c436),
+    linear-gradient(
+      226.35deg,
+      rgba(255, 255, 255, 0.36) 0%,
+      rgba(76, 230, 58, 0.36) 8.45%,
+      rgba(255, 255, 255, 0.36) 17.62%,
+      rgba(76, 230, 58, 0.36) 25.25%,
+      rgba(255, 255, 255, 0.36) 31.87%,
+      rgba(76, 230, 58, 0.36) 38.49%,
+      rgba(255, 255, 255, 0.36) 45.62%,
+      rgba(76, 230, 58, 0.36) 51.22%,
+      rgba(255, 255, 255, 0.36) 59.36%,
+      rgba(76, 230, 58, 0.36) 66.49%,
+      rgba(255, 255, 255, 0.36) 73.11%,
+      rgba(76, 230, 58, 0.36) 79.73%,
+      rgba(255, 255, 255, 0.36) 86.35%,
+      rgba(76, 230, 58, 0.36) 97.75%,
+      rgba(255, 255, 255, 0.36) 97.75%
+    );
 }
 
 .fot p {

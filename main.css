@@ -155,7 +155,7 @@ hr {
 }
 
 .wb h4 {
-  font-size: 35px;
+  font-size: 28px;
 }
 
 #lg {
@@ -286,7 +286,7 @@ hr {
   font-weight: 100;
   font-size: 16px;
   line-height: 1px;
-  margin-left: -60px;
+  margin-left: -45px;
   color: #222222;
   margin-bottom: 40px;
 }
@@ -299,7 +299,7 @@ hr {
   color: rgba(42, 210, 0, 1);
 }
 
-.bnt {
+.net {
   padding: 10px 10px;
   text-decoration: none;
   font-weight: 100;
@@ -312,7 +312,11 @@ hr {
     linear-gradient(0deg, #45c436, #45c436);
   color: white;
   font-size: 15px;
-  margin-left: -180px;
+  margin-left: -165px;
+}
+
+.rowgin {
+  transform: translate(0px, -50px);
 }
 
 .gl {
@@ -321,9 +325,83 @@ hr {
   background-image: url(/gl.svg);
 }
 
+.col-lg-10 .col-lg-offset-1 {
+  width: 1170px;
+  background: #ffff;
+  box-shadow: 0px 0px 35px;
+  border-radius: 12px;
+}
+
+.chiz {
+  width: 150px;
+  height: 13px;
+  background: rgba(69, 196, 54, 1);
+  border-radius: 89px;
+}
+
+.kj {
+  width: 150px;
+  height: 13px;
+  border: solid 1px black;
+  border-radius: 89px;
+}
+
+.colbg {
+  display: flex;
+  gap: 30px;
+}
+
+.fot {
+  width: 160px;
+  height: 160px;
+  background: #ffff;
+  border: solid 1px grey;
+  border-radius: 9px;
+}
+
+.foti {
+  width: 160px;
+  height: 160px;
+  background: #ffff;
+  border: solid 1px grey;
+  border-radius: 9px;
+  background: #3caa2f;
+}
+
+.fot p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #222222;
+  line-height: 20px;
+}
+
+.fot img {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 430px) {
   .now {
     display: block;
     margin-left: 10px;
+  }
+
+  .kg {
+    width: 403px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 120%;
+    text-align: center;
+    color: #222222;
+  }
+
+  .look {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(2, 2fr);
+    margin-left: 20px;
   }
 }

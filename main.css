@@ -327,7 +327,7 @@ hr {
     linear-gradient(0deg, #45c436, #45c436);
   color: white;
   font-size: 15px;
-  transform: translate(90px, 0px);
+  transform: translate(90px, 10px);
 }
 
 .rowgin {
@@ -416,6 +416,31 @@ hr {
   margin-top: 20px;
 }
 
+.good {
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.col-lg-2 {
+  margin-bottom: 20px;
+}
+
+.utf {
+  padding: 15px 40px;
+  text-decoration: none;
+  font-weight: 100;
+  border-radius: 126px;
+  background: linear-gradient(
+      288.46deg,
+      rgba(0, 0, 0, 0.2) -12.86%,
+      rgba(0, 0, 0, 0) 66.5%
+    ),
+    linear-gradient(0deg, #45c436, #45c436);
+  color: white;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
 @media only screen and (max-width: 430px) {
   .now {
     display: block;
@@ -438,5 +463,10 @@ hr {
     margin-bottom: 20px;
     grid-template-columns: repeat(2, 2fr);
     margin-left: 20px;
+  }
+
+  #lg h4 {
+    font-size: 28px;
+    margin-bottom: 25px;
   }
 }

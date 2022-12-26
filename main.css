@@ -463,7 +463,7 @@ hr {
 .ma {
   height: 500px;
   background-position: center;
-  background-image: url(/images/bilol.jpg);
+  background-image: url(/images/bilol2-removebg-preview.png);
   background-size: cover;
 }
 
@@ -479,6 +479,7 @@ hr {
   background: rgba(255, 255, 255, 1);
   left: 411px;
   top: 5274px;
+  border-radius: 9px;
 }
 
 @media only screen and (max-width: 430px) {
